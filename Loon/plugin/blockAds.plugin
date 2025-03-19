@@ -2545,6 +2545,7 @@ https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|
 ^https?:\/\/nex.163.com\/q reject
 ^https?:\/\/g1.163.com\/madfeedback reject
 ^https?:\/\/www\.icourse163\.org\/mob\/j\/v1\/mobRecommendRPCBean\.getMaxWeightAdvertisement\.rpc reject-200
+^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) reject-img
 
 # > 网易大神
 # hostname = god.gameyw.netease.com,  app-conf.ds.163.com
